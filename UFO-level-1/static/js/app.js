@@ -3,22 +3,7 @@ var tbody = d3.select("tbody");
 
 var enterButton = d3.select("#filter-btn-date");
 var dateinputField = d3.select("#datetime");
-// select city buttons
- var cityenterButton = d3.select("#filter-btn-city");
- var cityinputField = d3.select("#cityname");
- // select state buttons
- var stateenterButton = d3.select("#filter-btn-state");
- var stateinputField = d3.select("#statename");
- // select country buttons
- var countryenterButton = d3.select("#filter-btn-country");
- var countryinputField = d3.select("#countryname");
- // select shape buttons
- var shapesenterButton = d3.select("#filter-btn-shape");
- var shapeinputField = d3.select("#shapename");
 
-
-// Add an event listener to the searchButton, call handleSearchButtonClick when clicked
-//dateenterButton.addEventListener("click", handleSearchButtonClick);
 // from data.js
 var tableData = data;
 
